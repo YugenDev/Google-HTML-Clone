@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.yugosowebpage.io }}
+      url: ${{ steps.deployment.outputs.https://github.com/YugenDev/Google-HTML-Clone.io }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
